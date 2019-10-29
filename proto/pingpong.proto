@@ -1,0 +1,21 @@
+//Request Reply
+syntax = "proto3";
+
+service RequestReplyService {
+    rpc traerAeropuerto (Request) returns (Reply){}
+    rpc traerUsuario (Request) returns (Reply){}
+    rpc traerVuelos (Request) returns (Reply){}
+    rpc traerTickets (Request) returns (Reply){}
+    rpc cantidadTickets (Request) returns (Reply){}
+    rpc usuarioMasCompras (Request) returns (Reply){}
+}
+
+message Request{
+    string cadena = 1;
+}
+
+message Reply{
+    string cadena = 1;
+}
+
+
