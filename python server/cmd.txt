@@ -1,0 +1,1 @@
+& "c:/Users/Matias/Desktop/grpc python/venv/Scripts/activate.ps1"
